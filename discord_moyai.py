@@ -5,7 +5,7 @@ import asyncio
 # to add the bot, simply paste "https://discord.com/api/oauth2/authorize?client_id=844572613421301761&permissions=0&scope=bot" into web browser, and add to your discord server
 
 # variables for bot usage
-TOKEN = 'ODQ0NTcyNjEzNDIxMzAxNzYx.Gg4A_P.CTPghP8Dhz_A3sVVuTrEf2pT1cT_kpsQdTmWxE'
+TOKEN = 'ODQ0NTcyNjEzNDIxMzAxNzYx.GyxMMx.-7LBagkFq96-FYrLgdMSWNMjaFH3IsatonEs-s'
 EMOJI = '🗿'
 TEXT = 'funy sound effec'
 CREATOR = 'i was created by JamesIsWack // kernaltrap'
