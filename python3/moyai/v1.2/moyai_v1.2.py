@@ -6,14 +6,14 @@ import sys
 # to add the bot, simply paste "https://discord.com/api/oauth2/authorize?client_id=844572613421301761&permissions=0&scope=bot" into web browser, and add to your discord server
 
 # variables for bot usage
-TOKEN = 'client_token_here'
+TOKEN = 'MTA5MjQ1MDg3NTMyMDA1Mzc2MA.GKs67U.C4M2zt-ReG0QetBYqGOPhJ9-hrQu34BCoYuF7I'
 EMOJI = '🗿'
 TEXT = 'funy sound effec'
 CREATOR = 'i was created by JamesIsWack // kernaltrap'
 CREATOR_link = 'https://github.com/JamesIsWack'
 MENTION = 'bro i cant answer you i am literally only for sending the moyai emoji, talk to my creator instead'
 SRC = "https://github.com/JamesIsWack/moyai_discord_bot"
-HELP = '\n!spam // send the moyai 5 times.\n !creator // credits lol\n !commands // display this help message.\n !version // prints current Py Script version.\n !client // prints client version.\n !what // spam emoji one time.'
+HELP = '\n!spam // send the moyai 5 times.\n !creator // credits lol\n !commands // display this help message.\n !version // prints current Py Script version.\n !client // prints client version.\n !what // spam emoji one time.\n !ballsdeath // o noe deth'
 VER = "client is running version 1.1a of moyai, run !client to see host version." 
 BALLS = 'https://tenor.com/view/persona-persona5-morgana-catfish-mona-gif-22879397'
 
@@ -62,9 +62,9 @@ async def on_message(message):
         for i in range(1):
             await message.channel.send(sys.version)
             await asyncio.sleep(0.1)
-    if message.content.startswith('!balls'):
+    if message.content.startswith('!ballsdeath'):
         for i in range(1):
-            await message.channel.embed(BALLS)
+            await message.channel.send(BALLS)
             await asyncio.sleep(0.1)
 
 
