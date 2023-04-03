@@ -6,7 +6,7 @@ import sys
 # to add the bot, simply paste "https://discord.com/api/oauth2/authorize?client_id=844572613421301761&permissions=0&scope=bot" into web browser, and add to your discord server
 
 # variables for bot usage
-tokenBytes = 'MTA5MjQ1MDg3NTMyMDA1Mzc2MA.GK2Aeo.HCoMSkj2ka8H-oWiCzArICe19qR7Iighrtzqv8'
+tokenBytes = 'client_token_here'
 emoji = '🗿'
 text = 'funy sound effec'
 creator = 'i was created by JamesIsWack // kernaltrap'
