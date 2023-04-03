@@ -13,7 +13,7 @@ CREATOR = 'i was created by JamesIsWack // kernaltrap'
 CREATOR_link = 'https://github.com/JamesIsWack'
 MENTION = 'bro i cant answer you i am literally only for sending the moyai emoji, talk to my creator instead'
 SRC = "https://github.com/JamesIsWack/moyai_discord_bot"
-HELP = '\n!spam // send the moyai 5 times.\n !creator // credits lol\n !commands // display this help message.\n !version // prints current Py Script version.\n !client /. prints client version.\n !what // spam emoji one time.'
+HELP = '\n!spam // send the moyai 5 times.\n !creator // credits lol\n !commands // display this help message.\n !version // prints current Py Script version.\n !client // prints client version.\n !what // spam emoji one time.'
 VER = "client is running version 1.1a of moyai, run !client to see host version." 
 print(sys.version)
 
