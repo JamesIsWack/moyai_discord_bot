@@ -69,6 +69,6 @@ async def on_message(message):
             await asyncio.sleep(0.1)
     if message.content.startswith('!balls'):
         for i in range(1):
-            await message.channel.send(BALL_2)
+            await message.channel.send(BALLS_2)
             await asyncio.sleep(0.1)
 client.run(TOKEN)
