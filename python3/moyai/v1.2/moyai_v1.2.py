@@ -20,6 +20,7 @@ BALLS = 'https://tenor.com/view/persona-persona5-morgana-catfish-mona-gif-228793
 intents = discord.Intents().all() # probably shouldnt do this for security
 client = discord.Client(application_id=844572613421301761, intents=intents) # set app_id and use intents 
 activity_string = 'spamming on {} servers'.format(len(client.guilds))
+
 @client.event
 async def on_ready():
     await client.change_presence(activity=discord.Game('spamming moyais like a champ'))
@@ -61,6 +62,10 @@ async def on_message(message):
         for i in range(1):
             await message.channel.send(sys.version)
             await asyncio.sleep(0.1)
-   
+    if message.content.startswith('!balls'):
+        for i in range(1):
+            await message.channel.embed(BALLS)
+            await asyncio.sleep(0.1)
+
 
 client.run(TOKEN)
