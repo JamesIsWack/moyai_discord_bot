@@ -14,14 +14,15 @@ config.read(file)
 config.sections()
 # this will parse config and assign the data to that varible 
 token = config["moyaiVariables"]["token"]
-emoji = config["moyaiVariables"]["emoji"]
+#emoji = config["moyaiVariables"]["emoji"] // this has been removed as it causes the moyai to not be typed correctly.
+emoji = '🗿'
 text = config["moyaiVariables"]["text"]
 creator = config["moyaiVariables"]["creator"]
 creatorLink = config["moyaiVariables"]["creatorLink"]
 mention = config["moyaiVariables"]["mention"]
 src = config["moyaiVariables"]["src"]
 help = config["moyaiVariables"]["help"]
-ver = config["moyaiVariables"]["ver"]
+ver = 'client is running version 1.2b of moyai, run !client to see host version.'
 deth = config["moyaiVariables"]["deth"]
 balls = config["moyaiVariables"]["balls"]
 intents = discord.Intents().all() # probably shouldnt do this for security
