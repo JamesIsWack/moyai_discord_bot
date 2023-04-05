@@ -1,0 +1,13 @@
+here is the base for the config file, replace the string "client_token_here" with the client token you got when you created the app in Discord Dev Portal.
+
+
+[moyaiVariables]
+token = client_token_here
+text = funy sound effec 
+creator = i was created by JamesIsWack // kernaltrap 
+creatorLink = https://github.com/JamesIsWack 
+mention = bro i cant answer you i am literally only for sending the moyai emoji, talk to my creator instead 
+src = https://github.com/JamesIsWack/moyai_discord_bot 
+help = \n!spam // send the moyai 5 times.\n !creator // credits lol\n !commands // display this help message.\n !version // prints current Py Script version.\n !client // prints client version.\n !what // spam emoji one time.\n !ballsdeath // o noe deth\n !balls // the boogie   
+deth = https://tenor.com/view/persona-persona5-morgana-catfish-mona-gif-22879397 
+balls = https://tenor.com/view/morgana-persona5-p5-persona-dance-gif-24135947 

@@ -1,0 +1,18 @@
+here is the base for the config file, replace the string "client_token_here" with the client token you got when you created the app in Discord Dev Portal.
+
+
+[moyaiVariables]
+token = client_token_here 
+text = funy sound effec 
+creator = i was created by JamesIsWack // kernaltrap 
+creatorLink = https://github.com/JamesIsWack 
+mention = bro i cant answer you i am literally only for sending the moyai emoji, talk to my creator instead 
+src = https://github.com/JamesIsWack/moyai_discord_bot 
+deth = https://tenor.com/view/persona-persona5-morgana-catfish-mona-gif-22879397 
+balls = https://tenor.com/view/morgana-persona5-p5-persona-dance-gif-24135947 
+website = take a look at James website if you need some guides and/or resources. https://jamesiswack.github.io
+error80010017 = this error is a very vague error sent by NP, however there is a couple things you can do to fix the issue. if the EBOOT is signed as DEX and you are on CEX (not CEX2DEX, just CEX) you must first convert. to convert on EVILNAT, go to Custom Firmware Tools > CEX2DEX Tools > Convert to DEX (if this fails, dump ERK inside of Dump Tools, then try again). reboot and see if the error stays. if not, great. if it does, the EBOOT could be corrupted and must be replaced. looking for error 80010007? please type "how do i fix error 80010007" instead. 
+error80010007 = this is caused by a ELF being signed on higher SDK than the firmware currently used. either downgrade or resign EBOOT as (CEX NPDRM 3.55).
+ps2blackscreen = this is likely caused by a bad ISO, or you are running from disc. if running from disc, please dump as ISO and try again. if it is ISO, its either corrupt or there is a firmware issue. downgrade to 4.84.2 REBUG REX, or try older EVILNAT (4.88 is best)
+error80029C7F = this is a uncommon error, to fix it redownload your PUP file.
+evilnat = download EVILNAT 4.90 CFW from here (please use direct link!): https://mega.nz/folder/oV93nACL#MGK4ajtgpT5EBrBL8yjvRg
