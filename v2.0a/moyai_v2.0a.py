@@ -45,6 +45,8 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
+    if message.content.startswith('@everyone"):
+        return 
     if message.content.startswith('!spam'): #sends moyai emoji, and sleeps for 0.1s
          for i in range(5):
             await message.channel.send(emoji)
